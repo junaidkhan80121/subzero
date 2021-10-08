@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+.float{
+    height:auto;
+    width:100%;
+    animation: move 4s ease-in-out infinite;
+}
+
+@keyframes move{
+    0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(30px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.wave{
+	width: auto;
+	height: auto;
+}
+
+.left-text-heading{
+	font-family: 'Play', sans-serif;
+	color: black;
+	font-size: 50px;
+	
+}
+
+.typewriter{
+	font-family: 'Special Elite', cursive;
+	color:black;
+	font-size:25px;
+}
+
+.clip{
+	background-color: chartreuse;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 100%);
+}
+
+.hov{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+	text-decoration:none;
+	border:solid #00abf4 1px;
+	color: #00abf4;
+	background-color: white;
+	max-height: 40px;
+	height: 40px;
+	min-height: 40pxh;
+	max-width: 150px;
+	width: 150px;
+	min-width: 150px;
+	border-radius: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.hov:hover{
+	color:white;
+	background-color:#00abf4;;
+}
+
+.hov1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+	text-decoration:none;
+	border:solid #00abf4 1px;
+	color: white;
+	background-color: #00abf4;
+	max-height: 40px;
+	height: 40px;
+	min-height: 40pxh;
+	max-width: 150px;
+	width: 150px;
+	min-width: 150px;
+	border-radius: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.hov1:hover{
+	color:#00abf4;
+	background-color:white;
+}

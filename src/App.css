@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.logo{
+    font-size:40px;
+    font-family:'Ephesis', cursive;
+    font-weight:bolder;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.fade{
+    transition: 0.4s;
+    font-size: 25px;
+    color:black;
+    text-decoration: none;
+    margin-right: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    /* font-style: bold; */
+    
+}
+
+.fade:hover{
+    color: #5f5f5f;
+}
+
+.navbar-color{
+    background-color: white;
+}
+
+.active{
+    /* transition: 0.5s; */
+    color: #00abf4;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    border-bottom:solid #00abf4 2px;
+    margin-bottom: -5px;
+}
+
+.active:hover{
+    color: black;
+}
+
+.hvr-underline-center {
+    /* display: inline-block; */
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #00abf4;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-center:active:before, .hvr-underline-center:hover:before, .hvr-underline-center:focus:before {
+    left: 0;
+    right: 0;
+  }

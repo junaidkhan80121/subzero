@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.description{
+    font-family: 'Noto Sans Display', sans-serif;
+    color:black;
+    line-height: 4vh;
+}
+
+.desc-about{
+    align-items: center;
+    color:gray;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    line-height: 4vh;
+}
